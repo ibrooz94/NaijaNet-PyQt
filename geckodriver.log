@@ -1,0 +1,16 @@
+1623940166952	geckodriver	INFO	Listening on 127.0.0.1:55940
+1623940169968	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ibrahim\\AppData\\Local\\Temp\\rust_mozprofiletGX0rs"
+*** You are running in headless mode.
+1623940171353	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ibrahim\\AppData\\Local\\Temp\\rust_mozprofiletGX0rs\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1623940184674	Marionette	INFO	Listening on port 55958
+1623940186914	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623940235487	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623940236125	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1623940236751	Marionette	INFO	Stopped listening on port 55958
