@@ -115,10 +115,10 @@ class Naijanet():
 
         except selenium.common.exceptions.NoSuchElementException:
             self.driver.quit()
-            return "ERROR_1"
+            raise
         except selenium.common.exceptions.TimeoutException:
             self.driver.quit()
-            return "ERROR_2"
+            raise
 
         finally: 
             self.driver.quit()
