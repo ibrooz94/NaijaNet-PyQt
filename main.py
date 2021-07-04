@@ -2,7 +2,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 import sys
 import os
 import os.path
-from WS_api import sabi_share, get_search_result, destroy
+from api import sabi_share, get_search_result, destroy
 import time
 import requests
 import configparser
