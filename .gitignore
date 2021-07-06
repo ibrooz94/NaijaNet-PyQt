@@ -2,6 +2,7 @@
 icons/
 icon.ico
 qfiles.qrc
+config.ini
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
